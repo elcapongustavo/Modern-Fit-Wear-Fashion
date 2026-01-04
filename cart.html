@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - Modern Fit Wear</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Your Shopping Cart</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+  </nav>
+  <a href="products.html" class="backHome">Continue Shopping</a>
+</header>
+
+<main style="text-align:center;padding:60px;font-size:20px;">
+  <p>Total items: <strong><span id="cartCountPage">0</span></strong></p>
+  <p style="margin:30px 0;">Keep shopping or proceed to checkout when ready!</p>
+  <button onclick="clearCart()" style="background:#c33;padding:12px 20px;">Clear Cart</button>
+</main>
+
+</body>
+</html>
